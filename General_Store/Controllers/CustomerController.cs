@@ -62,8 +62,8 @@ namespace General_Store.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id)
         {
-            Product product = _db.Products.Find(id);
-            _db.Products.Remove(product);
+            Customer customer = _db.Customers.Find(id);
+            _db.Customers.Remove(customer);
             _db.SaveChanges();
             return RedirectToAction("Index");
         }

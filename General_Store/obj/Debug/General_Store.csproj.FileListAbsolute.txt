@@ -106,3 +106,6 @@ C:\Users\jenna\Documents\CodingPractice\General_Store\General_Store\obj\Debug\Ge
 C:\Users\jenna\Documents\CodingPractice\General_Store\General_Store\obj\Debug\General_Store.csproj.CopyComplete
 C:\Users\jenna\Documents\CodingPractice\General_Store\General_Store\obj\Debug\General_Store.dll
 C:\Users\jenna\Documents\CodingPractice\General_Store\General_Store\obj\Debug\General_Store.pdb
+C:\Users\jenna\Documents\CodingPractice\General_Store\General_Store\obj\Debug\General_Store.Migrations.FirstMigrate.resources
+C:\Users\jenna\Documents\CodingPractice\General_Store\General_Store\obj\Debug\General_Store.csproj.GenerateResource.cache
+C:\Users\jenna\Documents\CodingPractice\General_Store\General_Store\obj\Debug\General_Store.Migrations.AddedBasicTransaction.resources

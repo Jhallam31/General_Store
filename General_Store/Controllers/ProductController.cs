@@ -13,21 +13,14 @@ namespace General_Store.Controllers
     {
         private ApplicationDbContext _db = new ApplicationDbContext();
         // GET: Product (A-Z)
-        public ActionResult IndexAZ()
+        public ActionResult Index()
         {
             List<Product> productList = _db.Products.ToList();
             List<Product> orderedList = productList.OrderBy(prod => prod.Name).ToList();
             return View(orderedList);
             
         }
-        // GET: Product (A-Z)
-        public ActionResult IndexLowToHigh()
-        {
-            List<Product> productList = _db.Products.ToList();
-            List<Product> orderedList = productList.OrderBy(prod => prod.Price).ToList();
-            return View(orderedList);
-
-        }
+        
         //GET: Product Create
         public ActionResult Create()
         {
